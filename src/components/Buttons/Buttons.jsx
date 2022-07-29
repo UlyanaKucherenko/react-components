@@ -20,7 +20,10 @@ const Buttons = () => {
     "smSize": '<RButton size="sm"/>',
     "mdSize": '<RButton size="md"/>',
     "lgSize": '<RButton size="lg"/>',
+  }
 
+  function onClick () {
+    console.log('click BTN')
   }
 
   return (
@@ -28,15 +31,24 @@ const Buttons = () => {
       <h2>Buttons</h2>
       <div className={classes.content}>
         <div className={classes.element}>
-          <RButton text="Default"/>
+          <RButton
+            text="Default"
+            onClick={onClick}
+          />
           <div className={classes.name}>{names.base}</div>
         </div>
         <div className={classes.element}>
-          <RButton text="Outline" variant="outline"/>
+          <RButton
+            text="Outline"
+            variant="outline"
+          />
           <div className={classes.name}>{names.outline}</div>
         </div>
         <div className={classes.element}>
-          <RButton text="Text" variant="text"/>
+          <RButton
+            text="Text"
+            variant="text"
+          />
           <div className={classes.name}>{names.text}</div>
         </div>
         <div className={classes.element}>
@@ -72,7 +84,12 @@ const Buttons = () => {
           <div className={classes.name}>{names.startIcon}</div>
         </div>
         <div className={classes.element}>
-          <RButton text="delete" endIcon={<DeleteIcon/>} color="danger" size="lg"/>
+          <RButton
+            text="delete"
+            endIcon={<DeleteIcon/>}
+            color="danger"
+            size="lg"
+          />
           <div className={classes.name}>{names.endIcon}</div>
         </div>
       </div>

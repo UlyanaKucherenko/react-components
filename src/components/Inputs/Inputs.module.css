@@ -1,12 +1,10 @@
 .container {
-    border-right: 2px solid grey;
 }
 
 .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px;
 }
 .element {
     margin-bottom: 24px;

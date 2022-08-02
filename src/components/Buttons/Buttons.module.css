@@ -1,13 +1,13 @@
 
 .container {
-    border-right: 2px solid grey;
+    border-bottom: 1px solid #b2afaf;
 }
 
 .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px;
+    width: 100%;
 }
 .element {
     margin-bottom: 24px;

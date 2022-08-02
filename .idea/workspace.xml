@@ -5,26 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19f7c641-859b-4c3b-8028-047ebb843820" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Posts/PostItem/PostItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Posts/PostItem/PostsItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/Main/Main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/Main/Main.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/Sidebar/Sidebar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/MainComponents/MainComponents.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/PostPage/PostPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Posts/Posts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Posts/Posts.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/RInputSearch/RInputSearch.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/RInputSearch/RInputSearch.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Buttons/Buttons.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Buttons/Buttons.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Inputs/Inputs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Inputs/Inputs.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Components/MainComponents.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainComponents/MainComponents.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Components/MainComponents.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Posts/PostItem/PostItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Posts/PostItem/PostItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/RButton/RButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/RButton/RButton.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/RInput/RInput.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/RInput/RInput.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Posts/Posts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Posts/Posts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Posts/Posts.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +79,7 @@
       <workItem from="1659201465937" duration="4643000" />
       <workItem from="1659268513032" duration="11613000" />
       <workItem from="1659369340334" duration="7650000" />
-      <workItem from="1659429702889" duration="1192000" />
+      <workItem from="1659429702889" duration="10289000" />
     </task>
     <servers />
   </component>

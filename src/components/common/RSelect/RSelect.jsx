@@ -1,7 +1,7 @@
 import classes from "./RSelect.module.css";
 import {FormControl, Select, InputLabel, MenuItem} from "@material-ui/core";
 
-const RSelect = ({label, value, onChange}) => {
+const RSelect = ({label, value, onChange, options}) => {
   return (
     <FormControl className={classes.formControl}>
       <InputLabel id="demo-simple-select-label">{label}</InputLabel>
@@ -11,9 +11,10 @@ const RSelect = ({label, value, onChange}) => {
         value={value}
         onChange={onChange}
       >
-        <MenuItem value={1}>User 1</MenuItem>
-        <MenuItem value={2}>User 2</MenuItem>
-        <MenuItem value={3}>User 3</MenuItem>
+        {
+          options.map((option) =>
+            <MenuItem key={option.id} value={option.id}>{option.name}</MenuItem>
+          )}
       </Select>
     </FormControl>
   )

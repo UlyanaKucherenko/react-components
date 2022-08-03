@@ -9,7 +9,7 @@ const Main = () => {
   return(
     <div className={classes.container }>
       <Routes>
-        <Route exact path="/posts" element={<Posts />} />
+        <Route exact path="/" element={<Posts />} />
         <Route exact path="/posts/:id" element={<PostPage/>} />
         <Route exact path="/components" element={<MainComponents />} />
       </Routes>

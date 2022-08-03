@@ -1,5 +1,11 @@
 .filters {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 16px;
+    padding: 10px;
+    border-bottom: 1px solid blue;
+}
+
+.formControl {
+    width: 200px;
 }

@@ -1,18 +1,22 @@
 import React from "react";
 import MainComponents from "../../pages/MainComponents/MainComponents";
-import {Routes, Route} from "react-router-dom";
+import { Route, Switch} from "react-router-dom";
 import Posts from "../../pages/Posts/Posts";
 import classes from "./Main.module.css";
 import PostPage from "../../pages/PostPage/PostPage";
+import Quotes from "../../pages/Quotes/Quotes";
+import {AuthorsQuotes} from "../../components/Quotes/AuthorsQuotes";
 
 const Main = () => {
   return(
     <div className={classes.container }>
-      <Routes>
-        <Route exact path="/" element={<Posts />} />
-        <Route exact path="/posts/:id" element={<PostPage/>} />
-        <Route exact path="/components" element={<MainComponents />} />
-      </Routes>
+      <Switch>
+        <Route exact path="/posts" component={Posts} />
+        <Route exact path="/posts/:id" component={PostPage} />
+        <Route exact path="/quotes/random" component={Quotes} />
+        <Route exact path="/quotes/random/:author" component={AuthorsQuotes} />
+        <Route exact path="/components" component={MainComponents} />
+      </Switch>
     </div>
   )
 }

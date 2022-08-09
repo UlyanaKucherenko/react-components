@@ -3,11 +3,11 @@ import classes from "./Sidebar.module.css";
 import {NavLink} from "react-router-dom";
 
 
-
 const Sidebar = () => {
   return (
     <nav className={classes.container}>
-      <NavLink to="/" className={classes.item}>All Posts</NavLink>
+      <NavLink to="/posts" className={classes.item}>All Posts</NavLink>
+      <NavLink to="/quotes/random" className={classes.item}>Page Random Quote </NavLink>
       <NavLink to="/components" className={classes.item}>Components</NavLink>
     </nav>
   )

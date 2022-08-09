@@ -1,0 +1,15 @@
+.item {
+    border-left: 8px solid #F7DF94;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #000000;
+    padding-left: 100px;
+    margin-bottom: 100px;
+    max-width: 600px;
+    width: 100%;
+    min-height: 250px;
+    display: block;
+}

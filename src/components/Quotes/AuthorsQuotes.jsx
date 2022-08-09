@@ -1,31 +1,29 @@
-import {useEffect, useState} from "react";
-
+import React, {useEffect, useState} from "react";
+import {useParams} from "react-router-dom";
+import QuotesItem from "./QuotesItem/QuotesItem";
 
 const baseURL = "https://quote-garden.herokuapp.com/api/v3/quotes";
 
-export function QuotesAuthor() {
-
-  const [authorsQuotes, setAuthorsQuotes] = useState('Victor Hugo')
-
+export function AuthorsQuotes() {
+  const {author} = useParams();
+  const [authorsQuotes, setAuthorsQuotes] = useState([])
 
   useEffect(() => {
-    fetch(`${baseURL}?author=Victor Hugo`)
+    fetch(`${baseURL}/?author=${author}`)
       .then(response => response.json())
       .then(json => {
         console.log(json)
         setAuthorsQuotes(json.data)
       })
-  }, [])
+  }, [author])
 
 
   return (
     <div>
-      <div>QuotesAuthor</div>
+      <h2>{author}</h2>
       {
         authorsQuotes.map((quote) =>
-          <div key={quote._id}>
-            <div>{quote._id}</div>
-          </div>
+          <QuotesItem  key={quote._id} quote={quote} />
         )}
     </div>
   )

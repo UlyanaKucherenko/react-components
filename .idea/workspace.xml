@@ -6,8 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="19f7c641-859b-4c3b-8028-047ebb843820" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/RSelect/RSelect.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/RSelect/RSelect.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Posts/Posts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Quotes/AuthorsQuotes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Quotes/AuthorsQuotes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Quotes/QuotesItem/QuotesItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Quotes/QuotesItem/QuotesItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Quotes/QuotesItem/QuotesItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Quotes/QuotesItem/QuotesItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Sidebar/Sidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PostPage/PostPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PostPage/PostPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Quotes/Quotes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Quotes/Quotes.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +60,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Quotes/QuotesItem" />
+      <recent name="$PROJECT_DIR$/src/pages/PageQuote" />
       <recent name="$PROJECT_DIR$/src/pages/Post" />
       <recent name="$PROJECT_DIR$/src/components/Posts/PostList" />
       <recent name="$PROJECT_DIR$/src/layouts" />
-      <recent name="$PROJECT_DIR$/src/components/Buttons" />
-      <recent name="$PROJECT_DIR$/src/components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -75,7 +84,13 @@
       <workItem from="1659268513032" duration="11613000" />
       <workItem from="1659369340334" duration="7650000" />
       <workItem from="1659429702889" duration="23992000" />
-      <workItem from="1659508722878" duration="11609000" />
+      <workItem from="1659508722878" duration="30045000" />
+      <workItem from="1659597006510" duration="10129000" />
+      <workItem from="1659619145791" duration="9000" />
+      <workItem from="1659621854282" duration="613000" />
+      <workItem from="1659695499041" duration="784000" />
+      <workItem from="1659708477720" duration="1543000" />
+      <workItem from="1660065442626" duration="1962000" />
     </task>
     <servers />
   </component>

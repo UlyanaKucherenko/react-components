@@ -4,8 +4,8 @@ import { Route, Switch} from "react-router-dom";
 import Posts from "../../pages/Posts/Posts";
 import classes from "./Main.module.css";
 import PostPage from "../../pages/PostPage/PostPage";
-import Quotes from "../../pages/Quotes/Quotes";
-import {AuthorsQuotes} from "../../components/Quotes/AuthorsQuotes";
+import QuotesPage from "../../pages/QuotesPage/QuotesPage";
+import {AuthorsQuotes} from "../../components/Quotes/AuthorsQuotes/AuthorsQuotes";
 
 const Main = () => {
   return(
@@ -13,7 +13,7 @@ const Main = () => {
       <Switch>
         <Route exact path="/posts" component={Posts} />
         <Route exact path="/posts/:id" component={PostPage} />
-        <Route exact path="/quotes/random" component={Quotes} />
+        <Route exact path="/quotes/random" component={QuotesPage} />
         <Route exact path="/quotes/random/:author" component={AuthorsQuotes} />
         <Route exact path="/components" component={MainComponents} />
       </Switch>

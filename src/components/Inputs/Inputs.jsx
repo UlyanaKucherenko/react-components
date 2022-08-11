@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "../Inputs/Inputs.module.css";
-import RInput from "../common/RInput/RInput";
+import RInput from "../ui/RInput/RInput";
 import AddIcon from '@material-ui/icons/Add';
 
 const Inputs = () => {

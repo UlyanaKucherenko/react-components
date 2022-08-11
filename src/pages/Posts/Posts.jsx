@@ -1,26 +1,25 @@
 import {useEffect, useState} from "react";
+
 import PostItem from "../../components/Posts/PostItem/PostItem";
-import RInputSearch from "../../components/common/RInputSearch/RInputSearch";
+import RInputSearch from "../../components/ui/RInputSearch/RInputSearch";
+import RButton from "../../components/ui/RButton/RButton";
+import RSelect from "../../components/ui/RSelect/RSelect";
+
 import classes from "./Posts.module.css";
-import RButton from "../../components/common/RButton/RButton";
-import RSelect from "../../components/common/RSelect/RSelect";
 
 const Posts = () => {
 
-  const multipleArr = [{"id": 1, "name": 5}, {"id": 2, "name": 10}, {"id": 3, "name": 50}]
-
   const [posts, setPosts] = useState([])
   const [users, setUsers] = useState([])
-  const [multiple, setMultiple] = useState(multipleArr)
   const [searchValue, setSearchValue] = useState("")
   const [userId, setUserId] = useState('');
-  const [multipleId, setMultipleId] = useState('');
   const [filteredPosts, setFilteredPosts] = useState([]);
 
   useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/posts')
       .then(response => response.json())
       .then((res) => {
+        console.log('res=>', res)
         setPosts(res)
         setFilteredPosts(res)
       });
@@ -31,7 +30,10 @@ const Posts = () => {
   useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(response => response.json())
-      .then((res) => setUsers(res));
+      .then((res) => {
+        console.log('res=>', res)
+        setUsers(res)
+      });
 
   }, [])
 
@@ -57,13 +59,12 @@ const Posts = () => {
           setUserId(e.target.value)
         }}/>
         <RButton text="filter" onClick={onFilterClick} color="primary" size="md"/>
-        <RSelect label="multiple" value={multipleId} options={multiple} onChange={e => setMultipleId(e.target.value)}/>
       </div>
 
       <div>
         {
           filteredPosts.map((post) =>
-            <PostItem key={post.id} post={post} />
+            <PostItem key={post.id} post={post}/>
           )}
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import RButton from "../ui/RButton/RButton";
+import RButton from "../../ui/RButton/RButton";
 import classes from "./Buttons.module.css";
 import DeleteIcon from '@material-ui/icons/Delete';
 import AddIcon from '@material-ui/icons/Add';

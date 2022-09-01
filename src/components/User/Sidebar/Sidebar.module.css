@@ -3,6 +3,12 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+    width: 250px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+    border-right: 1px solid #e2e2e2;
+    overflow-y: auto;
+    transition: 0.25s ease-in-out;
 }
 
 .item {

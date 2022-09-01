@@ -1,6 +1,6 @@
 import {useParams} from "react-router-dom";
 import {useState,useEffect} from "react";
-import PostItem from "../../components/Posts/PostItem/PostItem";
+import PostItem from "../../../components/Posts/PostItem/PostItem";
 
 const PostPage = () => {
   const { id } = useParams();

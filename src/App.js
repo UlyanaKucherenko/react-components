@@ -1,13 +1,16 @@
 import './App.css';
-import Main from "./layouts/Main/Main";
-import Sidebar from "./layouts/Sidebar/Sidebar";
+import {ThemeProvider} from "styled-components";
+import UserLayouts from "./layouts/UserLayouts/UserLayouts";
+import { theme } from './theme';
+
 
 function App() {
   return (
-    <div className="App">
-      <Sidebar />
-      <Main />
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="App">
+        <UserLayouts/>
+      </div>
+    </ThemeProvider>
   );
 }
 

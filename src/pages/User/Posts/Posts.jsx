@@ -1,9 +1,9 @@
 import {useEffect, useState} from "react";
 
-import PostItem from "../../components/Posts/PostItem/PostItem";
-import RInputSearch from "../../components/ui/RInputSearch/RInputSearch";
-import RButton from "../../components/ui/RButton/RButton";
-import RSelect from "../../components/ui/RSelect/RSelect";
+import PostItem from "../../../components/Posts/PostItem/PostItem";
+import RInputSearch from "../../../components/ui/RInputSearch/RInputSearch";
+import RButton from "../../../components/ui/RButton/RButton";
+import RSelect from "../../../components/ui/RSelect/RSelect";
 
 import classes from "./Posts.module.css";
 

@@ -5,11 +5,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
 }
+
 .element {
     margin-bottom: 24px;
     margin-right: 20px;
+    width: 20%;
 }
+
 .name {
     margin-top: 16px;
     display: block;

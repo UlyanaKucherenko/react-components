@@ -1,0 +1,24 @@
+.Layout {
+    display: flex;
+    height: 100vh;
+}
+
+.UserLayout {
+    display: flex;
+    height:100%;
+    width: 100%;
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    padding: 24px 16px;
+    overflow-y: auto;
+}

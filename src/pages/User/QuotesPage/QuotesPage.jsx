@@ -1,9 +1,9 @@
 import {useEffect, useState} from "react";
 
-import RButton from "../../components/ui/RButton/RButton";
+import RButton from "../../../components/ui/RButton/RButton";
 import AutorenewIcon from '@material-ui/icons/Autorenew';
 import {Link} from "react-router-dom";
-import QuotesItem from "../../components/Quotes/QuotesItem/QuotesItem";
+import QuotesItem from "../../../components/Quotes/QuotesItem/QuotesItem";
 
 import classes from "./QuotesPage.module.css";
 
